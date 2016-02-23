@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+</head>
+
+    <title>Registration Form</title>
+
+
+<body>
+<label> Register.html </label>
+<form action="CPFPSQLServlet" onsubmit="return validateForm()" method="get">
+	<br><label> Registration Form</label>
+	
+	<br><br><label> First Name</label>
+	<input type = "text" name="fname" required /><br>
+	<br><label> Last Name:</label>
+	<input type = "text" name="lname" required /><br>
+	<br><label> Address:</label>
+	<input type = "text" name="address" required /><br>
+	<br><label> email</label>
+	<input type = "text" name="email" required /><br>
+	
+	<br><label> choose your password</label>
+	<input type = "password" name="password1" required /><br>
+	<br><label> please confirm your password</label>
+	<input type = "password" name="password2" required /><br>
+	
+	<br><br><label> You may schedule up to 3 appointments.</label>
+	
+	<br><br><label> Appointment Date 1: </label><input id="meeting" input type="date" name="passdate1" value="2000-01-01"  />
+	<br><label> Appointment Date 2: </label><input id="meeting" input type="date" name="passdate2" value="2000-01-01"  />	
+	<br><label> Appointment Date 3: </label><input id="meeting" input type="date" name="passdate3" value="2000-01-01"  />
+	
+	<br><br><input type = "submit" value="Submit your registration form" />
+</form>
+
+	<br><br><button onclick="location.href = 'http://localhost:8080/CPFP/LoginOrRegister.html'" id="myButton" class="float-left submit-button" >Discontinue Registration Form and Return to the "Login or Register" Page</button>	
+
+	
+
+
+
+</body>
+</html>
