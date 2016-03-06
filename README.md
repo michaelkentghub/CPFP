@@ -1,13 +1,15 @@
 # CPFP
 
-Michael Kent  February 23, 2016
+Michael Kent
 
-Completed Full ACC Java Developer Course   July 2015 – February 2016
+Completed Full ACC Java Developer Course  July 2015 – February 2016
+This is the Capstone project for that course.
 
 Resume is on linkedin:
 https://www.linkedin.com/in/michaelrkent5
 
 512-923-9356       mrkent57@gmail.com
+Preparing to take Java SE7 certification exam 1Z0-803.
 
 This “CPFP” project is an appointment scheduling app for a business.  In this case, it is for a fictitious lawn service, but it could be used for any business.
 
@@ -20,8 +22,6 @@ I have tested it on IE, Chrome, and Firefox, and it runs on all three.
 The code opens a SQL database and  creates a table that keeps info on clients.
 
 Session variables are used as a state machine to communicate between sections of the code.
-
-
 Detailed functionality:
 
 -  Create.html calls a servlet that deletes any current “customer” db and any current table named “clients”,   then creates them and seeds the table with a fictional client.   This allows the business owner to start fresh.
@@ -48,6 +48,7 @@ This app is a work in progress and the following features could be added.
 -  Code could be added to email all changes made, back to the customer that made them, and to email all changes made, and any feedback entered, to the business owner.
 
 -   The business owner can “freeze” any account by temporarily changing the password, locking the user out.  Code could be added to display a message to the user explaining the problem when they try to log in.
-
+-   
 -  A radio button could be added for each date scheduled, allowing the user to  select between different services for each of the dates, such as mow lawn only, mow + trim shrubs, compost, etc.   This would only require the addition of three variables to each db table row and three more session variables.
+
 
