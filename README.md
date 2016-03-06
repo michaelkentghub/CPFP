@@ -3,6 +3,7 @@
 Michael Kent
 
 Completed Full ACC Java Developer Course  July 2015 – February 2016
+
 This is the Capstone project for that course.
 
 Resume is on linkedin:
