@@ -48,8 +48,8 @@ This app is a work in progress and the following features could be added.
    
 -  Code could be added to email all changes made, back to the customer that made them, and to email all changes made, and any feedback entered, to the business owner.
 
--   The business owner can “freeze” any account by temporarily changing the password, locking the user out.  Code could be added to display a message to the user explaining the problem when they try to log in.
--   
+- The business owner can "freeze" any account by temporarily changing the password, locking the user out. Code could be added to display a message to the user explaining the problem when they try to log in.
+
 -  A radio button could be added for each date scheduled, allowing the user to  select between different services for each of the dates, such as mow lawn only, mow + trim shrubs, compost, etc.   This would only require the addition of three variables to each db table row and three more session variables.
 
 
